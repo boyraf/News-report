@@ -105,4 +105,3 @@ searchForm.addEventListener('submit', (event) => {
       console.error(error);
     });
 });
-//

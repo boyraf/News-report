@@ -18,18 +18,22 @@
   <div id="container">
 
   </div>
-
+  <div id="div">
+    <img class="img" src="./pic.jpg" width="300px" height="400px" />
+    <h1>Hello! My name is Raphael. I like looking for News using certain keywords. My page does this and much more!!! If what you search for is not in the database, the closest article will be displayed or one can add their article below. Enjoy!</h1>
+  </div>
+<div>
   <form  method="POST" id="productForm">
+    <h1>ADD ARTICLE</h1>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
     <label for="image_url">Image URL:</label>
     <input type="url" id="image_url" name="image_url" required>
     <label for="description">Description:</label>
     <textarea id="description" name="description" required></textarea>
-    <label for="price">Price:</label>
-    <input type="number" id="price" name="price" min="0" step="0.01" required>
     <button type="submit">Submit</button>
   </form>
+</div>
   <script src="script.js"></script>
 </body>
 </html>

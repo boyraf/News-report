@@ -173,4 +173,22 @@ body {
     border-color: #4CAF50;
   }
   
+  #div {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .img {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
   

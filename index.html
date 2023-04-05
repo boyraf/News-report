@@ -10,9 +10,9 @@
 <body>
   <nav class="navbar">
     <a href="#" class="logo">Short News</a>
-    <form class="search-form">
+    <form class="search-form" >
       <input type="text" placeholder="Search..." class="nav-input">
-      <button type="submit">Search</button>
+      <button type="submit" class="btn">Search</button>
     </form>
   </nav>
   <div id="container">
@@ -23,15 +23,31 @@
     <h1>Hello! My name is Raphael. I like looking for News using certain keywords. My page does this and much more!!! If what you search for is not in the database, the closest article will be displayed or one can add their article below. Enjoy!</h1>
   </div>
 <div>
-  <form  method="POST" id="productForm">
-    <h1>ADD ARTICLE</h1>
+  <form  method="POST" id="handleSubmit">
+    <h1 class="head😏">ADD ARTICLE</h1>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
     <label for="image_url">Image URL:</label>
     <input type="url" id="image_url" name="image_url" required>
+    <label for="date">date:</label>
+    <input type="text" id="date" name="date" pattern="\d{2}/\d{2}/\d{4}" required>
     <label for="description">Description:</label>
     <textarea id="description" name="description" required></textarea>
-    <button type="submit">Submit</button>
+    <button type="submit" onclick="">Submit</button>
+  </form>
+</div>
+
+<div>
+
+  <form id="meForm" method="post" action="process_form.php">
+    <h1 class="head😏">COMMENT??</h1>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="comment">Comment👌:</label>
+    <textarea id="comment" name="comment" rows="4" cols="50" required></textarea>
+    <br>
+    <button type="submit" onclick="submitForm()">Submit</button>
   </form>
 </div>
   <script src="script.js"></script>

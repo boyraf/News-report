@@ -2,6 +2,61 @@ body {
     background-color: #f8f9fa;
   }
   
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.nav-input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e53935;
+}
+
+/* Arrange everything horizontally */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav-input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
   #container {
     display: flex;
     flex-wrap: wrap;
@@ -47,43 +102,8 @@ body {
     }
   }
   
-  .navbar {
-    background-color: #5a666f;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
   
-  .logo {
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-  }
   
-  .search-form {
-    display: flex;
-    align-items: center;
-  }
-  
-  .search-form input {
-    padding: 8px;
-    font-size: 16px;
-    border: none;
-    border-radius: 20px;
-    margin-right: 10px;
-  }
-  
-  .search-form button {
-    background-color: #1c2331;
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    padding: 8px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
   
  /* Style the delete button */
 .delete-button {
@@ -116,7 +136,7 @@ body {
   form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -173,7 +193,7 @@ body {
     border-color: #4CAF50;
   }
   
-  #div {
+  div {
     display: flex;
     align-items: center;
     margin: 20px;
@@ -191,4 +211,11 @@ body {
     font-weight: bold;
     color: #333;
   }
+  
+  .head😏 {
+    align-self: center;
+  }
+
+  
+  
   

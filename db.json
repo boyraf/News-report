@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": 1,
-      "title": "The Benefits of Meditation"   ,
+      "title": "The Benefits of Meditation",
       "description": "Meditation is a powerful tool for improving mental health and reducing stress.",
       "image_url": "https://example.com/meditation.jpg",
       "date": "2023-04-01",
@@ -20,7 +20,7 @@
       "id": 3,
       "title": "Tips for Better Sleep",
       "description": "Getting enough quality sleep is essential for overall health and wellbeing.",
-      "image_url": "https://example.com/sleep.jpg",
+      "image_url": "https://media.istockphoto.com/id/1125454675/photo/happy-caucasian-woman-enjoying-in-good-sleep.jpg?b=1&s=170667a&w=0&k=20&c=TkquVkAeQ9w6iTi2kmDVGeucPMRTbzeBTRRNsrlPdiE=",
       "date": "2023-03-25",
       "likes": 10
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "title": "How to Improve Your Focus",
       "description": "Learn some practical tips for improving your concentration and focus.",
-      "image_url": "https://example.com/focus.jpg",
+      "image_url": "https://media.istockphoto.com/id/1400306788/photo/do%C4%9Fada-y%C3%BCr%C3%BCy%C3%BC%C5%9F-yapan-s%C4%B1rt-%C3%A7antal%C4%B1-adam.jpg?b=1&s=170667a&w=0&k=20&c=t1UA6or9IjWBygAumEuWxom02ROwEhYSjV54TUjT8tA=",
       "date": "2023-03-20",
       "likes": 10
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "title": "The Benefits of Drinking Water",
       "description": "Staying hydrated is important for maintaining overall health and preventing dehydration.",
-      "image_url": "https://example.com/water.jpg",
+      "image_url": "https://media.istockphoto.com/id/1352302431/photo/filling-glass-of-water-from-the-tap.jpg?b=1&s=170667a&w=0&k=20&c=NQHHAYuqDjoI6cOEjf99kUnM3IXXP5absXyrW8uUskQ=",
       "date": "2023-03-15",
       "likes": 10
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "title": "How to Overcome Procrastination",
       "description": "Procrastination can be a major obstacle to productivity, but there are ways to overcome it.",
-      "image_url": "https://example.com/procrastination.jpg",
+      "image_url": "https://media.istockphoto.com/id/157741687/photo/now-later.jpg?b=1&s=170667a&w=0&k=20&c=9t4L3Fa3XiFo8TJ25e_R4UKiMdUSF_slL2qZhr_lDzg=",
       "date": "2023-03-10",
       "likes": 10
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "title": "The Benefits of Yoga",
       "description": "Yoga can improve flexibility, strength, and overall physical and mental health.",
-      "image_url": "https://example.com/yoga.jpg",
+      "image_url": "https://media.istockphoto.com/id/1312682831/photo/group-of-women-making-stretching-exercise-in-yoga-studio.jpg?b=1&s=170667a&w=0&k=20&c=f2NtKzrK6vb6jUEFGlrgoIaYzhwPSuvvIzq2VItfabc=",
       "date": "2023-03-05",
       "likes": 10
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "title": "How to Practice Mindfulness",
       "description": "Mindfulness can help reduce stress and improve overall wellbeing. Learn some tips for incorporating mindfulness into your daily life.",
-      "image_url": "https://example.com/mindfulness.jpg",
+      "image_url": "https://media.istockphoto.com/id/1409356242/photo/mother-and-daughter-exercising.jpg?b=1&s=170667a&w=0&k=20&c=41RzYO34ohHHDwaDCOBhc707-UZ6mCSOG-c_k2SFmLs=",
       "date": "2023-02-28",
       "likes": 20
     },
@@ -68,7 +68,7 @@
       "id": 9,
       "title": "The Benefits of a Healthy Diet",
       "description": "Eating a healthy diet can help prevent chronic diseases and promote overall health and wellbeing.",
-      "image_url": "https://example.com/healthy-diet.jpg",
+      "image_url": "https://media.istockphoto.com/id/1384900198/photo/vegan-food-colorful-fresh-vegetables-and-fruits-and-dried-legumes-in-a-row-on-white.jpg?b=1&s=170667a&w=0&k=20&c=T1sKSXgAPlj5OSkxf0ukrR5tPIjDHmCiifzwy4PtA0U=",
       "date": "2023-02-23",
       "likes": 20
     },
@@ -76,7 +76,7 @@
       "id": 10,
       "title": "How to Manage Stress",
       "description": "Stress is a common problem, but there are ways to manage it effectively.",
-      "image_url": "https://example.com/stress.jpg",
+      "image_url": "https://media.istockphoto.com/id/453539161/photo/frustrated-woman-covered-in-stiocky-reminders-rolls-her-eyes.jpg?b=1&s=170667a&w=0&k=20&c=2Q53qUYPlaYb0E-ku4xsFFCqoBHKmZdX9nnpOpxyDWg=",
       "date": "2023-02-18",
       "likes": 10
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "title": "NASA's Mars Helicopter Flight Delayed to April 14",
       "description": "NASA's Mars helicopter flight, which was originally scheduled for April 11, has been delayed to April 14 due to a software issue.",
-      "image": "https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA23932_hires.jpg",
+      "image": "https://media.istockphoto.com/id/1139875828/photo/space-scene-astronaut-stand-on-asteroid-with-rope-and-mars-planet-on-background-https-maps.jpg?b=1&s=170667a&w=0&k=20&c=iiYV0zwIxqkeHxwxim8nkwkYFOAqs2KAw8ikLjYSxLQ=",
       "date": "2023-04-09",
       "likes": 10
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "title": "Elon Musk's Neuralink Shows Monkey Playing Pong With Mind",
       "description": "Elon Musk's Neuralink has released a video showing a monkey playing Pong with its mind using a wireless implant.",
-      "image": "https://cdn.vox-cdn.com/thumbor/G1vxnF2jKxEyzmHd7WukAV8q50s=/0x0:1600x900/920x613/filters:focal(672x322:928x578):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70362145/Screen_Shot_2021_04_09_at_11.32.45_AM.0.png",
+      "image": "https://media.istockphoto.com/id/1269657765/photo/link-neuralink-new-artificial-intelligence-technology-that-allows-you-to-connect-to-the-human.jpg?b=1&s=170667a&w=0&k=20&c=b5rNhTLIbHGU0zWkoPIa5E4LRZoAMtMIbXmSDL07K7M=",
       "date": "2023-04-08",
       "likes": 20
     },
@@ -100,7 +100,7 @@
       "id": 13,
       "title": "SpaceX Launches Starship SN16 Prototype",
       "description": "SpaceX has successfully launched its Starship SN16 prototype, which will be used to transport cargo and crew to the moon and Mars.",
-      "image": "https://www.spacex.com/static/images/share.jpg",
+      "image": "https://media.istockphoto.com/id/170176249/photo/saturn-5-rocket-engine-and-exhaust-pipes.jpg?b=1&s=170667a&w=0&k=20&c=NbmGLYFhTptLw2Our8HyBMdBhPfS-8lCo4xwjtXsVmY=",
       "date": "2023-04-07",
       "likes": 10
     },
@@ -142,7 +142,7 @@
       "date": "12/05/2023",
       "description": "cvbnm,.vbhjnmkfgvbhnjmfbhnjfgvbhnj",
       "id": 19,
-      "likes": 10
+      "likes": 13
     }
   ]
 }

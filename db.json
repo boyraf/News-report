@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": 1,
-      "title": "The Benefits of Meditation",
+      "title": "The Benefits of Meditation"   ,
       "description": "Meditation is a powerful tool for improving mental health and reducing stress.",
       "image_url": "https://example.com/meditation.jpg",
       "date": "2023-04-01",

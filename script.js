@@ -28,7 +28,10 @@ function renderOneArticle(article){
     <p>
     ❤️<span class="like-count">${article.likes}</span>Likes
     </p>
+    <div class="card-content">
     <p>${article.description}</p>
+    <p class="card-info">Additional Info</p>
+    </div>
 
     </div>
     <div class="button">

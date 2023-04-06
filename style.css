@@ -95,6 +95,33 @@
   margin-left: 10px;
   }
   
+  .card:hover {
+    transform: translateY(-20px);
+  }
+
+  .card-content {
+    padding: 20px;
+    height: 40%;
+    background-color: #fff;
+    transition: height 1.1;
+  }
+  
+  .card-info {
+    display: none;
+  }
+  
+  .card:hover .card-info {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+  }
+
+
+  .card:hover .card-content {
+    height: 100%;
+  }
+
   /* Form */
   form {
   background-color: #fff;

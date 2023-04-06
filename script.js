@@ -1,98 +1,98 @@
-const apiUrl = 'http://localhost:3000/articles'; // replace with your server url
 
-function displayCards() {
-  fetch(apiUrl)
-    .then(response => response.json())
-    .then(data => {
-      cardContainer.innerHTML = '';
-      data.forEach((card, index) => {
-        const cardEl = document.createElement('div');
-        cardEl.classList.add('card');
-        cardEl.innerHTML = `
-        <img src="${card.image_url}"
-          <h3>${card.title}</h3>
-          <p>${card.date}</p>
-          <p>${card.description}</p>
-          <button onclick="editCard(${card.id})">Edit</button>
-          <button onclick="deleteCard(${card.id})">Delete</button>
-        `;
-        cardContainer.appendChild(cardEl);
-      });
-    })
-    .catch(error => console.error(error));
+//const form = document.querySelector('#article-form');
+//form.addEventListener('submit', handleSubmit);
+
+
+function handleSubmit(e){
+e.preventDefault();
+let articleObj = {
+  image_url:e.target.image_url.value,
+  title:e.target.name.value,
+  date:e.target.date.value,
+  description:e.target.description.value,
+  likes:0
+};
+renderOneArticle(articleObj)
+addArticle(articleObj)
 }
 
-function addCard(event) {
-  event.preventDefault();
-  const card = {
-    title: nameInput.value,
-    description: descriptionInput.value,
-    image_url: imageInput.value,
-    date: dateInput.value,
-  };
-  fetch(apiUrl, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(card),
-  })
-    .then(response => response.json())
-    .then(data => {
-      cards.push(data);
-      displayCards();
+
+function renderOneArticle(article){
+  let card = document.createElement('li')
+  card.className= 'card';
+  card.innerHTML = `
+  <img src="${article.image_url}">
+  <div class='content'>
+    <h2>${article.title}</h2>
+    <p>${article.date}</p>
+    <p>
+    ❤️<span class="like-count">${article.likes}</span>Likes
+    </p>
+    <p>${article.description}</p>
+
+    </div>
+    <div class="button">
+    <button id="remove">Remove</button>
+    <button id="like">like</button>
+    </div>
+    `
+    card.querySelector('#like').addEventListener('click', () => {
+      article.likes+= 1
+      card.querySelector('span').textContent = article.likes
+      updateLikes(article)
     })
-    .catch(error => console.error(error));
+    card.querySelector('#remove').addEventListener('click', () => {
+      card.remove()
+      deleteArticle(article.id)
+    })
+
+
+    document.querySelector('#article-list').appendChild(card);
 }
 
-function editCard(id) {
-  const card = cards.find(card => card.id === id);
-  imageInput.value = card.image_url;
-  nameInput.value = card.title;
-  dateInput.value = card.date;
-  descriptionInput.value = card.description;
-  addCardBtn.innerHTML = 'Save Changes';
-  addCardBtn.onclick = function() {
-    const updatedCard = {
-      title: nameInput.value,
-      description: descriptionInput.value,
-      image_url: imageInput.value,
-      date: dateInput.value,
-    };
-    fetch(`${apiUrl}/${id}`, {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(updatedCard),
-    })
-      .then(response => response.json())
-      .then(data => {
-        const index = cards.findIndex(card => card.id === id);
-        cards[index] = data;
-        imageInput.value = '';
-        nameInput.value = '';
-        dateInput.value = '';
-        descriptionInput.value = '';
-        addCardBtn.innerHTML = 'Add Card';
-        addCardBtn.onclick = addCard;
-        displayCards();
-      })
-      .catch(error => console.error(error));
-  };
+function getAllArticles(){
+  fetch(`http://localhost:4000/articles`)
+  .then(res => res.json())
+  .then(articleData => articleData.forEach(article => renderOneArticle(article)))
+
+}
+function addArticle(articleObj){
+  fetch('http://localhost:4000/articles',{
+   method: 'POST',
+   headers: {
+    'Content-Type' : 'application/json'
+  },
+  body:JSON.stringify(articleObj)
+})
+.then(res => res.json())
+.then(article => console.log(article))
 }
 
-function deleteCard(id) {
-  fetch(`${apiUrl}/${id}`, {
+function updateLikes(articleObj){
+  fetch(`http://localhost:4000/articles/${articleObj.id}`,{
+    method: 'PATCH',
+    headers: {
+     'Content-Type' : 'application/json'
+   },
+   body:JSON.stringify(articleObj)
+ })
+ .then(res => res.json())
+ .then(article => console.log(article))
+}
+
+function deleteArticle(id){
+  fetch(`http://localhost:4000/articles/${id}`, {
     method: 'DELETE',
+    headers: {
+      'Content-Type' : 'application/json'
+    }
   })
-    .then(response => {
-      if (response.ok) {
-        const index = cards.findIndex(card => card.id === id);
-        cards.splice(index, 1);
-        displayCards();
-      } else {
-        throw new Error('Failed to delete card');
-      }
-    })
-    .catch(error => console.error(error));
+  .then(res => res.json())
+  .then(article => console.log(article))
 }
 
-displayCards();
-addCardBtn.onclick = addCard;
+function initialize (){
+  getAllArticles()
+  //articleData.forEach(article => renderOneArticle(article))
+}
+initialize()

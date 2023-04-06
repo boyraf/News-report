@@ -1,118 +1,148 @@
 {
-    "articles": [
-      {
-        "id": 1,
-        "title": "The Benefits of Meditation",
-        "description": "Meditation is a powerful tool for improving mental health and reducing stress.",
-        "image_url": "https://example.com/meditation.jpg",
-        "date": "2023-04-01"
-      },
-      {
-        "id": 2,
-        "title": "The Importance of Exercise",
-        "description": "Regular exercise can improve physical and mental health, and increase longevity.",
-        "image_url": "https://example.com/exercise.jpg",
-        "date": "2023-03-29"
-      },
-      {
-        "id": 3,
-        "title": "Tips for Better Sleep",
-        "description": "Getting enough quality sleep is essential for overall health and wellbeing.",
-        "image_url": "https://example.com/sleep.jpg",
-        "date": "2023-03-25"
-      },
-      {
-        "id": 4,
-        "title": "How to Improve Your Focus",
-        "description": "Learn some practical tips for improving your concentration and focus.",
-        "image_url": "https://example.com/focus.jpg",
-        "date": "2023-03-20"
-      },
-      {
-        "id": 5,
-        "title": "The Benefits of Drinking Water",
-        "description": "Staying hydrated is important for maintaining overall health and preventing dehydration.",
-        "image_url": "https://example.com/water.jpg",
-        "date": "2023-03-15"
-      },
-      {
-        "id": 6,
-        "title": "How to Overcome Procrastination",
-        "description": "Procrastination can be a major obstacle to productivity, but there are ways to overcome it.",
-        "image_url": "https://example.com/procrastination.jpg",
-        "date": "2023-03-10"
-      },
-      {
-        "id": 7,
-        "title": "The Benefits of Yoga",
-        "description": "Yoga can improve flexibility, strength, and overall physical and mental health.",
-        "image_url": "https://example.com/yoga.jpg",
-        "date": "2023-03-05"
-      },
-      {
-        "id": 8,
-        "title": "How to Practice Mindfulness",
-        "description": "Mindfulness can help reduce stress and improve overall wellbeing. Learn some tips for incorporating mindfulness into your daily life.",
-        "image_url": "https://example.com/mindfulness.jpg",
-        "date": "2023-02-28"
-      },
-      {
-        "id": 9,
-        "title": "The Benefits of a Healthy Diet",
-        "description": "Eating a healthy diet can help prevent chronic diseases and promote overall health and wellbeing.",
-        "image_url": "https://example.com/healthy-diet.jpg",
-        "date": "2023-02-23"
-      },
-      {
-        "id": 10,
-        "title": "How to Manage Stress",
-        "description": "Stress is a common problem, but there are ways to manage it effectively.",
-        "image_url": "https://example.com/stress.jpg",
-        "date": "2023-02-18"
-      },
-      {
-        "id": 11,
-        "title": "NASA's Mars Helicopter Flight Delayed to April 14",
-        "description": "NASA's Mars helicopter flight, which was originally scheduled for April 11, has been delayed to April 14 due to a software issue.",
-        "image": "https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA23932_hires.jpg",
-        "date": "2023-04-09"
-      },
-      {
-        "id": 12,
-        "title": "Elon Musk's Neuralink Shows Monkey Playing Pong With Mind",
-        "description": "Elon Musk's Neuralink has released a video showing a monkey playing Pong with its mind using a wireless implant.",
-        "image": "https://cdn.vox-cdn.com/thumbor/G1vxnF2jKxEyzmHd7WukAV8q50s=/0x0:1600x900/920x613/filters:focal(672x322:928x578):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70362145/Screen_Shot_2021_04_09_at_11.32.45_AM.0.png",
-        "date": "2023-04-08"
-      },
-      {
-        "id": 13,
-        "title": "SpaceX Launches Starship SN16 Prototype",
-        "description": "SpaceX has successfully launched its Starship SN16 prototype, which will be used to transport cargo and crew to the moon and Mars.",
-        "image": "https://www.spacex.com/static/images/share.jpg",
-        "date": "2023-04-07"
-      },
-      {
-        "id": 14,
-        "title": "NASA Awards SpaceX Contract to Launch Europa Clipper Mission",
-        "description": "NASA has awarded SpaceX a contract to launch its Europa Clipper mission, which will study Jupiter's moon Europa for signs of life.",
-        "image": "https://www.nasa.gov/sites/default/files/thumbnails/image/15-238_pia19808-1041.jpg",
-        "date": "2023-04-06"
-      },
-      {
-        "id": 15,
-        "title": "Neuralink's Brain Implant Allows Paralyzed Patients to Type",
-        "description": "Neuralink's brain implant has allowed paralyzed patients to type on a computer using their thoughts, according to a new study.",
-        "image": "https://www.neuralink.com/img/og-image.jpg",
-        "date": "2023-04-05"
-      },
-      {
-        "id": 16,
-        "title": "SpaceX Launches Falcon Heavy Rocket With 60 Starlink Satellites",
-        "description": "SpaceX has launched its Falcon Heavy rocket with 60 Starlink satellites on board, bringing the total number of satellites in orbit to over 1,000.",
-        "image": "https://www.teslarati.com/wp-content/uploads/2022/02/SpaceX-Starlink-2.jpg",
-        "date": "2023-04-04"
-      }
-
-    ]
-  }
-  
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Benefits of Meditation",
+      "description": "Meditation is a powerful tool for improving mental health and reducing stress.",
+      "image_url": "https://example.com/meditation.jpg",
+      "date": "2023-04-01",
+      "likes": 10
+    },
+    {
+      "id": 2,
+      "title": "The Importance of Exercise",
+      "description": "Regular exercise can improve physical and mental health, and increase longevity.",
+      "image_url": "https://example.com/exercise.jpg",
+      "date": "2023-03-29",
+      "likes": 10
+    },
+    {
+      "id": 3,
+      "title": "Tips for Better Sleep",
+      "description": "Getting enough quality sleep is essential for overall health and wellbeing.",
+      "image_url": "https://example.com/sleep.jpg",
+      "date": "2023-03-25",
+      "likes": 10
+    },
+    {
+      "id": 4,
+      "title": "How to Improve Your Focus",
+      "description": "Learn some practical tips for improving your concentration and focus.",
+      "image_url": "https://example.com/focus.jpg",
+      "date": "2023-03-20",
+      "likes": 10
+    },
+    {
+      "id": 5,
+      "title": "The Benefits of Drinking Water",
+      "description": "Staying hydrated is important for maintaining overall health and preventing dehydration.",
+      "image_url": "https://example.com/water.jpg",
+      "date": "2023-03-15",
+      "likes": 10
+    },
+    {
+      "id": 6,
+      "title": "How to Overcome Procrastination",
+      "description": "Procrastination can be a major obstacle to productivity, but there are ways to overcome it.",
+      "image_url": "https://example.com/procrastination.jpg",
+      "date": "2023-03-10",
+      "likes": 10
+    },
+    {
+      "id": 7,
+      "title": "The Benefits of Yoga",
+      "description": "Yoga can improve flexibility, strength, and overall physical and mental health.",
+      "image_url": "https://example.com/yoga.jpg",
+      "date": "2023-03-05",
+      "likes": 10
+    },
+    {
+      "id": 8,
+      "title": "How to Practice Mindfulness",
+      "description": "Mindfulness can help reduce stress and improve overall wellbeing. Learn some tips for incorporating mindfulness into your daily life.",
+      "image_url": "https://example.com/mindfulness.jpg",
+      "date": "2023-02-28",
+      "likes": 20
+    },
+    {
+      "id": 9,
+      "title": "The Benefits of a Healthy Diet",
+      "description": "Eating a healthy diet can help prevent chronic diseases and promote overall health and wellbeing.",
+      "image_url": "https://example.com/healthy-diet.jpg",
+      "date": "2023-02-23",
+      "likes": 20
+    },
+    {
+      "id": 10,
+      "title": "How to Manage Stress",
+      "description": "Stress is a common problem, but there are ways to manage it effectively.",
+      "image_url": "https://example.com/stress.jpg",
+      "date": "2023-02-18",
+      "likes": 10
+    },
+    {
+      "id": 11,
+      "title": "NASA's Mars Helicopter Flight Delayed to April 14",
+      "description": "NASA's Mars helicopter flight, which was originally scheduled for April 11, has been delayed to April 14 due to a software issue.",
+      "image": "https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA23932_hires.jpg",
+      "date": "2023-04-09",
+      "likes": 10
+    },
+    {
+      "id": 12,
+      "title": "Elon Musk's Neuralink Shows Monkey Playing Pong With Mind",
+      "description": "Elon Musk's Neuralink has released a video showing a monkey playing Pong with its mind using a wireless implant.",
+      "image": "https://cdn.vox-cdn.com/thumbor/G1vxnF2jKxEyzmHd7WukAV8q50s=/0x0:1600x900/920x613/filters:focal(672x322:928x578):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70362145/Screen_Shot_2021_04_09_at_11.32.45_AM.0.png",
+      "date": "2023-04-08",
+      "likes": 20
+    },
+    {
+      "id": 13,
+      "title": "SpaceX Launches Starship SN16 Prototype",
+      "description": "SpaceX has successfully launched its Starship SN16 prototype, which will be used to transport cargo and crew to the moon and Mars.",
+      "image": "https://www.spacex.com/static/images/share.jpg",
+      "date": "2023-04-07",
+      "likes": 10
+    },
+    {
+      "id": 14,
+      "title": "NASA Awards SpaceX Contract to Launch Europa Clipper Mission",
+      "description": "NASA has awarded SpaceX a contract to launch its Europa Clipper mission, which will study Jupiter's moon Europa for signs of life.",
+      "image": "https://www.nasa.gov/sites/default/files/thumbnails/image/15-238_pia19808-1041.jpg",
+      "date": "2023-04-06",
+      "likes": 10
+    },
+    {
+      "id": 15,
+      "title": "Neuralink's Brain Implant Allows Paralyzed Patients to Type",
+      "description": "Neuralink's brain implant has allowed paralyzed patients to type on a computer using their thoughts, according to a new study.",
+      "image": "https://www.neuralink.com/img/og-image.jpg",
+      "date": "2023-04-05",
+      "likes": 10
+    },
+    {
+      "id": 16,
+      "title": "SpaceX Launches Falcon Heavy Rocket With 60 Starlink Satellites",
+      "description": "SpaceX has launched its Falcon Heavy rocket with 60 Starlink satellites on board, bringing the total number of satellites in orbit to over 1,000.",
+      "image": "https://www.teslarati.com/wp-content/uploads/2022/02/SpaceX-Starlink-2.jpg",
+      "date": "2023-04-04",
+      "likes": 10
+    },
+    {
+      "name": "iPhone X",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIEAwgMBEQACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAACAwQFAAEGB//EAEMQAAIBAwICBwQIBQEGBwAAAAECAwAEERIhBTEGEyJBUWFxFDKBkSMzQlKhscHRFTRykvCiU1RigtLhBxZDc4OUsv/EABoBAAMBAQEBAAAAAAAAAAAAAAABAgMEBQb/xAA1EQACAgEDAwICCQMFAQEAAAAAAQIRAxIhMQRBURMiYXEFFDJSgZGhsfBCwdEVIzPh8dI0/9oADAMBAAIRAxEAPwDzZRXpnjMYop2RTDApksMA00Sbw33QfjTFsEA55YX8aBWkGsbnm/4UUxOS8DVSmZth6KZNhhKdE6gglMVhBBQTqCEdArMMdAajBGKQtQDQHOQ5HpRRosm3BvqiB7xNFE6zOrP3qQajNHnRQWa0UDszTQFmaKQWZooCwSlBSYGgUh2VARTzFRR6GpjFjT7opUherNcMYqDuAqkkRKcnyxgFUZNjFHlTJbDC0yWwwp7vyoFYQQ+B+VFEtjFj9aqiHIML50E2Gq+P5UCfwCGmmTuYOrHJh86Qe42Sg8/SmFM1rH3X/tpD0/EzPgp+NAafiCQxO2PxoGqM0yd+flSC0ZpPfQJs1igDMUDszFILNYoAwrQOwdNIdlOsDfeNc1vye/6cfufqGIGH2qpP4mc8fiAQjP3t/UVdryc7xy+6MVG+8Pwqk/iZyhJf0jkXxIqtjnkpeByL6VRk2xypnupmbkGI/KglyDCA7bUybZhik+y4HqtA9S7o0YJiPrVHolFB6",
+      "date": "12/05/2023",
+      "description": "dfghjkl",
+      "id": 18,
+      "likes": 20
+    },
+    {
+      "name": "Girls",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIEAwgMBEQACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAACAwQFAAEGB//EAEMQAAIBAwICBwQIBQEGBwAAAAECAwAEERIhBTEGEyJBUWFxFDKBkSMzQlKhscHRFTRykvCiU1RigtLhBxZDc4OUsv/EABoBAAMBAQEBAAAAAAAAAAAAAAABAgMEBQb/xAA1EQACAgEDAwICCQMFAQEAAAAAAQIRAxIhMQRBURMiYXEFFDJSgZGhsfBCwdEVIzPh8dI0/9oADAMBAAIRAxEAPwDzZRXpnjMYop2RTDApksMA00Sbw33QfjTFsEA55YX8aBWkGsbnm/4UUxOS8DVSmZth6KZNhhKdE6gglMVhBBQTqCEdArMMdAajBGKQtQDQHOQ5HpRRosm3BvqiB7xNFE6zOrP3qQajNHnRQWa0UDszTQFmaKQWZooCwSlBSYGgUh2VARTzFRR6GpjFjT7opUherNcMYqDuAqkkRKcnyxgFUZNjFHlTJbDC0yWwwp7vyoFYQQ+B+VFEtjFj9aqiHIML50E2Gq+P5UCfwCGmmTuYOrHJh86Qe42Sg8/SmFM1rH3X/tpD0/EzPgp+NAafiCQxO2PxoGqM0yd+flSC0ZpPfQJs1igDMUDszFILNYoAwrQOwdNIdlOsDfeNc1vye/6cfufqGIGH2qpP4mc8fiAQjP3t/UVdryc7xy+6MVG+8Pwqk/iZyhJf0jkXxIqtjnkpeByL6VRk2xypnupmbkGI/KglyDCA7bUybZhik+y4HqtA9S7o0YJiPrVHolFB6",
+      "date": "12/05/2023",
+      "description": "cvbnm,.vbhjnmkfgvbhnjmfbhnjfgvbhnj",
+      "id": 19,
+      "likes": 10
+    }
+  ]
+}

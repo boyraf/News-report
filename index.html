@@ -12,19 +12,23 @@
 <body>
   <nav class="navbar">
     <a href="#" class="logo">Short News</a>
+    <a href="#Add-article" class="logo">Add article</a>
+    <a href="#Comments" class="logo">Comment</a>
     
   </nav>
   <div        class="details">
 
   </div>
+  
+  <ul id="article-list" class="cards"></ul>
+
   <div id="div">
     <img class="img" src="./pic.jpg" width="300px" height="400px" />
     <h1>Hello! My name is Raphael. I like looking for News using certain keywords. My page does this and much more!!! If what you search for is not in the database, the closest article will be displayed or one can add their article below. Enjoy!</h1>
   </div>
-  <ul id="article-list" class="cards"></ul>
 <div>
   <form id="article-form" onclick="handleSubmit()">
-    <h1 class="head😏">ADD ARTICLE</h1>
+    <h1 id="Add-article">ADD ARTICLE</h1>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
     <label for="image_url">Image URL:</label>
@@ -40,7 +44,7 @@
 <div>
 
   <form id="meForm" method="post" >
-    <h1 class="head😏">COMMENT??</h1>
+    <h1 id="Comments">COMMENTS</h1>
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
     <br>

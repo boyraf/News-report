@@ -1,6 +1,6 @@
 
-//const form = document.querySelector('#article-form');
-//form.addEventListener('submit', handleSubmit);
+const form = document.querySelector('#article-form');
+form.addEventListener('submit', handleSubmit);
 
 
 function handleSubmit(e){
@@ -54,13 +54,13 @@ function renderOneArticle(article){
 }
 
 function getAllArticles(){
-  fetch(`http://localhost:4000/articles`)
+  fetch(`http://localhost:3000/articles`)
   .then(res => res.json())
   .then(articleData => articleData.forEach(article => renderOneArticle(article)))
 
 }
 function addArticle(articleObj){
-  fetch('http://localhost:4000/articles',{
+  fetch('http://localhost:3000/articles',{
    method: 'POST',
    headers: {
     'Content-Type' : 'application/json'
@@ -72,7 +72,7 @@ function addArticle(articleObj){
 }
 
 function updateLikes(articleObj){
-  fetch(`http://localhost:4000/articles/${articleObj.id}`,{
+  fetch(`http://localhost:3000/articles/${articleObj.id}`,{
     method: 'PATCH',
     headers: {
      'Content-Type' : 'application/json'
@@ -84,7 +84,7 @@ function updateLikes(articleObj){
 }
 
 function deleteArticle(id){
-  fetch(`http://localhost:4000/articles/${id}`, {
+  fetch(`http://localhost:3000/articles/${id}`, {
     method: 'DELETE',
     headers: {
       'Content-Type' : 'application/json'
